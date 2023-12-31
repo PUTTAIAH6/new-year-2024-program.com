@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    padding-top: 30%;
+    background: rgb(232,83,24);
+    background: linear-gradient(90deg, rgb(172, 5, 5) 0%, rgb(151, 147, 11) 50%, rgb(2, 37, 134) 100%);
+    background-size: cover;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #5e0606;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+  
+input[type=text]:focus {
+    width: 60%
+}
+
+*{
+    padding: 0;
+}
+
+.show{
+    display: none;
+}
+
+h1{
+    font-size: 150px;
+    color: rgb(36, 96, 226);
+    text-shadow: 5px 5px red;
+}
+
+h2{
+    font-size: 300px;
+    color: yellow;
+    text-shadow: 5px 5px black;
+}
+
+.madhu{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: rgb(216, 213, 25);
+    -webkit-background-clip: text;
+}
+
+input{
+    font-size: 80px;
+    width: 70%;
+    border: 5px solid blue;
+}
+
+button {
+    background-color: #041daa;
+    border: solid  magenta;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 8px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 36px;
+}
+
+.ig{
+    height: 90%;
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+}
